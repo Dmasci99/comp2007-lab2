@@ -2,6 +2,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
-        <h1>Welcome...</h1>
+        <bs3:Jumbotron runat="server" ID="MainTron" />
     </div>
 </asp:Content>
