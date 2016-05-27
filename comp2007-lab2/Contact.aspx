@@ -30,7 +30,7 @@
                 </div>
                 
                 <div class="text-right">
-                    <asp:Button runat="server" CssClass="btn btn-warning btn=lg" ID="CancelButton" Text="Cancel" CausesValidation="false" OnClick="CancelButton_Click" />
+                    <a href="#" class="btn btn-warning btn-lg" id="CancelButton" />
                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Send" CausesValidation="true" OnClick="SendButton_Click" />
                 </div>
 
