@@ -2,7 +2,8 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
-        <h1>Contact Us</h1>
+        <h1 class="text-center">Contact Us</h1>
+        <br /><br />
         <div class="row">
             <div class="col-md-offset-3 col-md-6">                
                 <div class="form-group">
@@ -30,7 +31,7 @@
                 </div>
                 
                 <div class="text-right">
-                    <a href="#" class="btn btn-warning btn-lg" id="CancelButton" />
+                    <a href="Contact.aspx" class="btn btn-warning btn-lg" id="CancelButton">Cancel</a>
                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Send" CausesValidation="true" OnClick="SendButton_Click" />
                 </div>
 
