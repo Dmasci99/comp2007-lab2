@@ -13,5 +13,19 @@ namespace comp2007_lab2
         {
 
         }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            //Clear Inputs
+            FirstNameTextBox.Text = string.Empty;
+            LastNameTextBox.Text = string.Empty;
+            EmailAddressTextBox.Text = string.Empty;
+            MessageTextBox.Text = string.Empty;
+        }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            //find a way to send an email
+        }
     }
 }
